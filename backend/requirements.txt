@@ -1,0 +1,12 @@
+flask==3.0.3
+flask-cors==4.0.1
+scikit-learn>=1.5
+numpy>=1.26
+scipy>=1.13
+transformers>=4.40
+torch>=2.2
+sentencepiece>=0.2
+
+# gunicorn is for Linux/Mac production deployment only (e.g. Render, Railway).
+# It will not run on Windows -- do not install it for local Windows development.
+# gunicorn==22.0.0
